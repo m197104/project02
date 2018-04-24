@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" type="text/css" href="messageBoard.css">
+     <meta charset = "utf-8">
+     <title>Index</title>
+</head>
+<body>
+
+<h1>Super Secret Message Board</h1>
+<div id="divclass">
+<h2>Login Form</h2>
+
+<!-- Initial form with log in fields and sign up button -->
+<form action="./index.py" method="get">
+
+  Username:<br>
+  <input type="text" name="user"  required>
+  <br>
+  Password:<br>
+  <input type="password" name="pass" required>
+  <br><br>
+  <input type="submit" value="Login" >
+</form>
+</div>
+<br>
+<br>
+<div id="divclass">
+  <h2>Sign-Up Form</h2>
+<form action="signup.py" method="POST">
+  Username:<br>
+  <input type="text" name="user" required>
+  <br>
+  Name: <br><input type="text" name="name"  required>
+  <br>
+  Password: <br><input type="password" name="pass" required>
+  <br>
+  <input type="submit" value="Sign Up" >
+</form>
+</div>
+
+
+</body>
+</html>

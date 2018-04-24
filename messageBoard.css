@@ -1,0 +1,101 @@
+/* CSS is sourced from w3schols url : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_chat */
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+    background:#333333 	url(./inflicted.png) repeat;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  border-style: outset;
+  border-width: 10px;
+  margin-left: 9%;
+  margin-right: 9%;
+  text-shadow: 3px 3px 1px black;
+  box-shadow: 10px 10px 5px black;
+}
+h2 {
+  text-align: center;
+  color: white;
+  border-style: outset;
+  border-width: 6px;
+  margin-left: 9%;
+  margin-right: 9%;
+  text-shadow: 3px 3px 1px black;
+  box-shadow: 7px 7px 3px black;
+}
+
+form {
+  text-align: center;
+  border-style: outset;
+  border-width: 6px;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 3px 3px 1px black;
+  box-shadow: 7px 7px 3px black;
+  color: white;
+}
+
+.divclass {
+  text-align: center;
+  color: white;
+  border-style: outset;
+  border-width: 10px;
+  margin-left: 9%;
+  margin-right: 9%;
+  text-shadow: 3px 3px 1px black;
+  box-shadow: 10px 10px 5px black;
+}
+
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    color:black
+    text-align:left;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
